@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+ text-align: center; 
+}
+.wrapper{
+  width: 90%;
+  margin: 0 auto;
+}
+header{
+  height: 80px;
+  background:black ;
+  width: 100%;
+  z-index: 12;
+  position: fixed;
+}
+
+.logo{
+ width: 10px; 
+ float: left;
+ line-height: 80px;
+ 
+}
+
+.logo a{
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Times New Roman;
+  color: #fff;
+  letter-spacing: 5px;
+
+}
+
+
+.banner-area {
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 80px;
+	background-image: url(back.jpg);
+	webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.banner-area p {
+	padding-top: 14%;
+	padding: 22px;
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	color: #fff;
+	word-spacing: 10px;
+	letter-spacing: 3px;
+}
+.content-area {
+	width: 100%; 
+	position: relative;
+	top: 450px;
+	background: #ebebeb;
+	height: 1500px;
+}
+.content-area h2 {
+  text-align: left;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 2px;
+	padding-top: 30px;
+	font-size: 24px;
+	
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: 'EB Garamond', serif;
+	line-height: 30px;
+	font-size: 20px;
+}
+.man{
+  width: 100%;
+  height:1500px;
+  background-color: #262626;
+  float: center;
+  
+
+}
+.man p{
+  padding: 2% 0px;
+	font-family: 'EB Garamond', serif;
+	line-height: 30px;
+	font-size: 30px;
+	color : white;
+	text-align: center;
+}
+.man .moon{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  font-family: Times New Roman;
+  font-size: 15px;
+  color: white;
+}
+
+#bech{
+  
+  
+position: absolute;
+  left: 35px;
+  right:35px;
+  background:#262626;
+}
+footer{
+  color : white;
+  font-family:'EB Garamond', serif ;
+  font-size: 15px;
+}
